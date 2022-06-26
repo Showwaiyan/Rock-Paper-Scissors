@@ -8,7 +8,7 @@
 body {
     background-color: #54BAB9;
     max-height: 100vh;
-    min-width: 1100px;
+    min-width: 1300px;
 }
 
 h1 {
@@ -58,14 +58,6 @@ img {
     padding: 10px;
 }
 
-#marks {
-    align-self: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    letter-spacing: 5px;
-    font-size: 50px;
-    color: #E9DAC1;
-}
-
 .selection {
     display: flex;
     justify-content: space-around;
@@ -77,9 +69,22 @@ img {
     margin: 50px;
     padding: 10px;
 }
+.players-card:hover {
+    transform: scale(1.1);
+}
 .rock {
     margin-left: 300px;
 }
 .paper {
     margin-right: 380px;
+}
+
+/* ID selector */
+
+#marks {
+    align-self: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: #E9DAC1;
 }

@@ -44,6 +44,21 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
+function win_or_lose() {
+    if (PlayerMark === 5) {
+        document.getElementById("marks").textContent = "YOU WIN!";
+        PlayerMark = 0;
+        ComputerMark = 0;
+        return true;
+    }
+    else if (ComputerMark === 5) {
+        document.getElementById("marks").textContent = "YOU LOSE!";
+        PlayerMark = 0;
+        ComputerMark = 0;
+        return true;
+    }
+}
+
 const selector = document.querySelector('.selection');
 
 let PlayerSelection;
@@ -70,4 +85,5 @@ selector.addEventListener('click',(e)=>{
 
         document.getElementById("marks").textContent = `${PlayerMark}  :  ${ComputerMark}`;
     }
+    if(win_or_lose()) setTimeout(function () {document.getElementById("marks").textContent = `${PlayerMark} :  ${ComputerMark}`},1000);
 })
