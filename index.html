@@ -9,8 +9,55 @@
     <script src="" defer></script>
 
     <title>Rock-Paper-Scissors</title>
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
-    
+   <main class="play-ground">
+
+        <header class="players">
+
+            <section class="human">
+                <h1>HUMAN :</h1>
+            
+                <div class="player-card-human">
+                    <img src="images/rock.png" alt="rock-icon">
+                </div>
+            </section>
+
+            <section class="computer">
+                <h1>: COMPUTER</h1>
+
+                <div class="player-card-computer">
+                    <img src="images/paper.png" alt="paper-icon">
+                </div>
+            </section>
+        </header>
+
+        <section class="selection">
+            <div class="players-card rock" data-card="rock">
+               <img src="images/rock.png" alt="rock-icon"> 
+            </div>
+
+            <div class="players-card scissors" data-card="scissors">
+                <img src="images/scissors.png" alt="scissors-icon">
+            </div>
+
+            <div class="players-card paper" data-card="paper">
+                <img src="images/paper.png" alt="paper-icon">
+            </div>
+        </section>
+
+
+   </main> 
+
+   <footer class="copy-right">
+
+   </footer>
 </body>
 </html>

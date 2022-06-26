@@ -1,0 +1,76 @@
+/* Element Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #54BAB9;
+    max-height: 100vh;
+}
+
+h1 {
+    color: #E9DAC1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 6px;
+    font-size: 50px;
+    align-self: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+/* Class Selectors */
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.human {
+    display: flex;
+}
+.player-card-human {  
+    border: 8px solid #18978F;
+    border-radius: 100%;
+    background-color: #F7ECDE;
+    margin: 50px;
+    padding: 10px;
+}
+
+.computer {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.player-card-computer {
+    border: 8px solid #18978F;
+    border-radius: 100%;
+    background-color: #F7ECDE;
+    margin: 50px;
+    padding: 10px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+}
+.players-card {
+    border: 8px solid #18978F;
+    border-radius: 100%;
+    background-color: #F7ECDE;
+    margin: 50px;
+    padding: 10px;
+}
+.rock {
+    margin-left: 300px;
+}
+.paper {
+    margin-right: 380px;
+}
