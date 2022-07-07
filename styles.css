@@ -79,11 +79,26 @@ img {
     margin-right: 380px;
 }
 
+.copy-right {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.copy-right a {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 15px;
+    text-decoration-line: none;
+    color: black;
+}
+.copy-right a:active {
+    text-decoration-line: underline overline;
+}
 /* ID selector */
 
 #marks {
     align-self: center;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'yanone kaffeesatz', sans-serif;
     letter-spacing: 5px;
     font-size: 40px;
     color: #E9DAC1;
